@@ -53,6 +53,8 @@ namespace FormationNeo_Chapite8_Classes
             Personne Paul = new Personne(23, "Paul", "43 rue de la République");
             // Déclaration avec le constructeur simplifié (N°2)
             Personne Jean = new Personne(62, "Jean"); // Ici pas d'adresse!
+            // Declaration avec le constructeur vide (N°3)
+            Personne Alex = new Personne();
 
             // Notez Que ces deux lignes ont le même résultat, la présentation d'une personne
             Paul.Presentation(); // Présentation complette de Paul
@@ -64,25 +66,29 @@ namespace FormationNeo_Chapite8_Classes
             Paul.DireAge(); // Paul donne son age car il a moins de 50 ans
             Jean.DireAge(); // Jean ne donne pas son age, car il a plus de 50 ans
 
-            // A noter : Il est possible de modifier les variables dans une classe de la même
+            // Il est possible de modifier les variables dans une classe de la même
             // manière qu'on modifiais les variables précédement!
-            Paul.Age = 40;
-            Paul.DireAge();
+            Alex.Age = 40;
+            Alex.DireAge();
+
+            // A noter : Alex n'as pas tout ces attributs déclarés.
+            // Le résultat de certaines méthodes est alors parfois étrange... 
+            Alex.Presentation();
 
 
             /* 
              * Classe héritée : Héro
              * 
-             * La classe Héro HERITE de la classe Personne. En effet, un héro est une personne.
+             * La classe "Hero" HERITE de la classe "Personne". En effet, un héro est une personne.
              * Un héro possède donc tout les attributs d'un personne, mais possède ces propres attributs.
              * Un héro peut aussi faire tout ce que fait une personne, mais pas forcément de la même manière.
              * 
-             * Les notions abbordé ici sont PRIMORDIALES. A la fin de ce cours, vous devez savoir:
+             * Les notions abordés ici sont PRIMORDIALES. A la fin de ce cours, vous devez savoir:
              *      - Ce qu'est l'hériatge
              *      - Ce qu'est la surcharge
              *      - Et surtout POURQUOI ON UTILISE DES CLASSES
              *      
-             * Les objects sont au coeur de la Programmation Orientée Objet (POO), les classes étant
+             * Les objets sont au coeur de la Programmation Orientée Objet (POO), les classes étant
              * le pillier de tout programme écrit en C#. J'en profite pour attirer votre attention sur
              * le fait que chacun de ces programmes (et ce depuis le premier exercice) EST UNE CLASSE!
             */

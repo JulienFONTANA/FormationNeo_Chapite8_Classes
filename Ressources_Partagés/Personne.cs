@@ -8,6 +8,7 @@ using System.Threading.Tasks;
  * 
  * Cette classe est ce qui sert de base aux héros et super-héros
 */
+
 namespace Ressources_Partagés
 {
     // Notez que la classe Personne, ces attributs et ces méthodes sont précédés du
@@ -46,6 +47,12 @@ namespace Ressources_Partagés
             Nom = nom;
             Adresse = "nulle part";
         }
+
+        // Ce constructeur est vide! (N°3)
+        // Il permet de créer un objet "Personne" ne contenant rien, car il suppose que ces
+        // attributs seront rempli plus tard.
+        // Ce constructeur permet aussi de simplifier l'héritage 
+        public Personne() {}
 
         // Methodes
         // Ce sont les fonctions propres à la classe. Ces fonctions ne peuvent pas être
