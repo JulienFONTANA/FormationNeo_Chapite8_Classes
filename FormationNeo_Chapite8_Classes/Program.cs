@@ -26,8 +26,7 @@ using System.Threading.Tasks;
 // C'est le projet "ressources partagés" présent en bas de votre
 // explorateur de solutions. Comme son nom l'indique, ce projet
 // contient des ressources partagés entre le cours et les différents
-// exercices. Vous verrez que c'est même la que va se passer 90%
-// du cours et des exercices!!!
+// exercices. Vous verrez que c'est même la que va se passer 90% du cours!
 using Ressources_Partagés;
 
 namespace FormationNeo_Chapite8_Classes
