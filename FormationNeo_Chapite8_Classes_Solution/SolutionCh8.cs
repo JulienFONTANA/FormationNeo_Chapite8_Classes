@@ -80,9 +80,35 @@ namespace FormationNeo_Chapite8_Classes_Solution
             CodeMan.Presentation();
             CodeMan.FrappeLeRobotGeant(99);
             CodeMan.VaincreLeMal();
+
+            // Bonus 1: Surcharger la méthode "VaincreLeMal()"
             CodeMan.VaincreLeMal(Pabopagentil);
+
+            // Bonus 2: Comment expliquer l'alliance de héros et de super-héros?
             CodeMan.Alliance(Pierrus);
             CodeMan.Alliance(TacoLibre);
+            /* La classe "Hero" possède cette méthode:
+             * 
+             * public virtual void Alliance(Hero autreHero)
+             *      {
+             *          Console.WriteLine("Que je suis content de te voir " + autreHero.NomDeHero + " ! Ensemble nous sommes plus fort!");
+             *      }
+             * 
+             * Elle prends en paramètre un "Hero" et utilise cet autre héro pour déterminer son NomDeHero.
+             * Il est normal que cette methode marche entre deux héros
+             * 
+             * Pourtant:
+             * Un héro peut s'allier à un super-héro
+             * Un super-héro peut s'allier à un héro
+             * Deux super-héros peuvent s'allier entre eux!
+             * 
+             * L'explication est simple : les super-héros sont des "Hero", et ils héritent de toutes les propriétés d'un héro
+             * Ainsi, un superhero est un héro particulier. Il peut être utilisé comme un héro, et possèdant bien un
+             * attribut "NomDeHero", la méthode "Alliance" fonctionne tout le temps!
+             * 
+             * C'est la puissance de la programmation objet!
+             * 
+            */
         }
     }
 }

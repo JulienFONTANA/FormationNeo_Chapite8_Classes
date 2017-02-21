@@ -82,7 +82,7 @@ namespace Ressources_Partagés
         }
 
         // Il est possible d'avoir un objet en parapètres, comme un variable
-        public virtual void Alliance(Hero autreHero)
+        public void Alliance(Hero autreHero)
         {
             Console.WriteLine("Que je suis content de te voir " + autreHero.NomDeHero + " ! Ensemble nous sommes plus fort!");
         }
