@@ -17,10 +17,6 @@
 */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // Nous utilisons ici des classes présentes dans un autre "namespace"
 // C'est le projet "ressources partagés" présent en bas de votre

@@ -1,9 +1,5 @@
 ﻿using Ressources_Partagés;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FormationNeo_Chapite8_Classes_Solution
 {
