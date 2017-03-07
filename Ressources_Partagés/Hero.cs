@@ -62,8 +62,8 @@ namespace Ressources_Partagés
             while (resistanceDuRobot > 0)
             {
                 Console.WriteLine("Pif! Paf! Pouf! Prends ça robot géant!");
-                resistanceDuRobot /= 2;
-                resistanceDuRobot -= 3;
+                resistanceDuRobot = resistanceDuRobot / 2;
+                resistanceDuRobot = resistanceDuRobot - 3;
             }
             Console.WriteLine("Ce n'est plus qu'un tas de boulon!");
         }
