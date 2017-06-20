@@ -7,7 +7,7 @@
 
 namespace Ressources_Partagés
 {
-    // Notez que la classe Personne, ces attributs et ces méthodes sont précédés du
+    // Notez que la classe Personne, ses attributs et ses méthodes sont précédés du
     // mot-clé "public". Ce mot est un "accesseur" et permet de donner accès au code
     // de cette classe dans tout le reste du programme
     public class Personne

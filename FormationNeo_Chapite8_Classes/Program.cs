@@ -94,7 +94,7 @@ namespace FormationNeo_Chapite8_Classes
             Hero LeBinoclard = new Hero(21, "Jean-Guy", "122 impasse de chez Mamie", "LeBinoclard", "Mega Vision");
 
             // La classe Héro ne possède pas de fonction "DireAge()" ni même d'attribut "Age" (Allez voir!)
-            // Il est possible d'appeler cette fonction sans errur car SuperBaleze est un héro, et
+            // Il est possible d'appeler cette fonction sans erreur car SuperBaleze est un héro, et
             // qu'un héro est une personne. La classe "Hero" hérite de "Personne", et donc ces attributs et méthodes
             // sont elles aussi hérités.
             SuperBaleze.DireAge();
@@ -106,7 +106,7 @@ namespace FormationNeo_Chapite8_Classes
             // Erreur à la ligne suivante
             //Jean.UtiliseSonPouvoir();
 
-            // Première complication. Lors de ça présentation, "LeBinoclard" ne donne ni son nom ni son adresse!
+            // Première complication. Lors de sa présentation, "LeBinoclard" ne donne ni son nom ni son adresse!
             // Pourtant cette fonction est la même que celle appelée par "Paul" ou "Jean"!
             // Ce phénomène est possible car la fonction "Présentation()" à été surchargé
             // Pour plus de détails, allez voir "Personne.cs"
@@ -130,7 +130,7 @@ namespace FormationNeo_Chapite8_Classes
             // (une classe peut même être un type de retour!!!)
             SuperBaleze.Alliance(LeBinoclard);
 
-            // Enfin, seul une partie de classe peut être passé en paramètre
+            // Enfin, une partie de classe peut être passé en paramètre
             LeBinoclard.OuEsTaBaseSecrete(SuperBaleze.Adresse);
         }
     }

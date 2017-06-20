@@ -44,11 +44,11 @@ namespace FormationNeo_Chapite8_Classes_Exercices
              * Dans "SuperHero.cs", modifier la classe ainsi créée pour la faire hériter de la classe "Hero"
              * N'oubliez pas "using Ressources_Partagés;" en haut du fichier
              * 
-             * Un super héro à sa propre cape, avec un "Super Symbol", et un "Ennemi Juré" (un "villain" en attribut!)
+             * Un superhéro à sa propre cape, avec un "Super Symbol", et un "Ennemi Juré" (un "Villain" en attribut!)
              * 
-             * Quand ils se présentent, les super héros ont une aura spécial et se présentent ainsi:
+             * Quand ils se présentent, les superhéros ont une aura spéciale et se présentent ainsi:
              * "Je suis CodeMan, et le symbol 'en C#' sur ma cape est synonyme d'espoir! Mon ennemi juré est System Error!"
-             * (CodeMan est ici le nom du super héro, "en C#" est son super symbol et System Error est un villain)
+             * (CodeMan est ici le nom du superhéro, "en C#" est son super symbol et System Error est un villain)
              * 
              * Enfin un SuperHéro doit vaincre sont son ennemi juré sans qu'il ai besoin de réfléchir!
              * Pour cela, il utilise la méthode "VaincreLeMal()"!
@@ -59,7 +59,7 @@ namespace FormationNeo_Chapite8_Classes_Exercices
              * car un vrai superhéro peux vaincre plusieur ennemis!
              * 
              * Bonus2: Un super héro doit pouvoir s'allier à un autre héro ou un autre superhéro!
-             * Essayer de faire s'allier un deux super héros puis un héro et un super-héro.
+             * Essayer de faire s'allier deux super héros puis un héro et un super-héro.
              * Il n'y à pas d'erreur! Comment expliquer cela?
             */
 
